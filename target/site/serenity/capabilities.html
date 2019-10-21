@@ -49,8 +49,8 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0],
-                ['Pending', 1],
+                ['Passing', 1],
+                ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
                 ['Errors',  0],
@@ -82,8 +82,8 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0 requirements tested successfully'},
-                {label: '1 requirements pending'},
+                {label: '1 requirements tested successfully'},
+                {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
                 {label: '0} requirements with errors'},
@@ -177,7 +177,7 @@
             <a href="#"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-12-2018 15:56</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-10-2019 09:04</span>
     <br style="clear:left"/>
 </div>
 
@@ -212,9 +212,9 @@
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria
                                         (tests)</a></td>
                                     <td>1</td>
-                                    <td>0</td>
-                                    <td>0</td>
                                     <td>1</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                     <td>0</td>
                                     <td></td>
                                 </tr>
@@ -243,9 +243,9 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>1</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
             <td>1 (100%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
@@ -259,14 +259,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>1</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
             <td>1 (100%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">0 seconds</td>
+                <td colspan="5">59 seconds</td>
         </tr>
         </body>
     </table>
@@ -294,27 +294,27 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-PENDING">
-                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">PENDING</span></td>
-                                <td class="PENDING-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="65d1d7b13cab100bde7c4248371bf65f4cd34d1b9f7c53d318a2fb770fc1e971.html" class="ellipsis"
-                                           title="Prueba ">
-                                            Prueba
+                                        <a href="d63b15ed05f63f2b2ffcbcfaff179f542c7e16882b9c06e8fab7b428f2a7b8d6.html" class="ellipsis"
+                                           title="Agregar producto al carro de compras ">
+                                            Agregar producto al carro de compras
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="PENDING-text">3</td>
+                                <td class="SUCCESS-text">9</td>
 
 
-                                <td class="PENDING-text" data-sort="2018-12-11 15:56:55">15:56:55</td>
+                                <td class="SUCCESS-text" data-sort="2019-10-21 09:04:11">09:04:11</td>
 
-                                <td class="PENDING-text">0.44</td>
+                                <td class="SUCCESS-text">58.84</td>
                             </tr>
                         </tbody>
                     </table>
